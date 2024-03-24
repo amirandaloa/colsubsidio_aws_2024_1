@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "Producto 1",
+        "precio": "15",
+        "descripcion": "Este es un producto de prueba."
+    },
+    {
+        "nombre": "Producto 2",
+        "precio": 20.0,
+        "descripcion": "Este es otro producto de prueba."
+    },
+    {
+        "nombre": "Producto 3",
+        "precio": 35.5,
+        "descripcion": "Este es un tercer producto de prueba."
+    }
+]

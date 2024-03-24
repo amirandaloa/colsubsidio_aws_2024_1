@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de productos</title>
+    <link rel="stylesheet" href="static/css/app.css">
+    <script src="static/js/app.js"></script>
+</head>
+<body>
+    <h1>App de productos</h1>
+    <form action="/consultar" method="get">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <button type="submit">Consultar</button>
+    </form>
+    <br>
+    <form action="/editar" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" name="precio">
+        <br>
+        <button type="submit">Editar</button>
+    </form>
+    <br>
+    <div id="resultado"></div>
