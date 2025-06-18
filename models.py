@@ -7,7 +7,7 @@ class Modelo:
                 host="192.168.10.15",
                 database="darek_db",
                 user="postgres",
-                password="Bogota2025@*"
+                password=""
             )
             self.cursor = self.connection.cursor()
         except Exception as e:
